@@ -128,7 +128,6 @@ int main(int argc, char* argv[]) {
 				break;
 
 			case '?':
-				fprintf(stderr, "unrecognized argument -%c\n", optopt);
 				usage(argc, argv);
 				goto error;
 		}
